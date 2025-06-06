@@ -4,7 +4,7 @@
 #include "star_alignment.hpp"
 #include "fasta_reader.hpp"
 
-
+/*
 int main() {
     std::vector<std::string> secuencias = {
         "ATTGCCATT",
@@ -18,11 +18,11 @@ int main() {
 
     return 0;
 }
+*/
 
 
 
 
-/*
 int main(int argc, char* argv[]) {
    
 
@@ -51,4 +51,3 @@ int main(int argc, char* argv[]) {
 
     return 0;
 }
-*/
