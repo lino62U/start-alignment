@@ -1,0 +1,24 @@
+# Build y binarios
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+/Makefile
+/cmake_install.cmake
+
+# Ejecutables
+/*.out
+/*.exe
+/*.bin
+/test_alineador
+/alineador
+
+# Archivos temporales
+*.o
+*.obj
+*.log
+
+# Archivos de configuración del entorno
+*.swp
+*.swo
+*.user
+*.vscode/
