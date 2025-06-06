@@ -3,7 +3,7 @@
 #include "align_utils.hpp"
 #include <iostream>
 
-void star_alignment(const std::vector<std::string>& sequences, const std::string& output_file) {
+std::vector<std::string> star_alignment(const std::vector<std::string>& sequences, const std::string& output_file) {
     
     auto [score_matrix, sum_row] = build_score_matrix(sequences);
     int center_index = print_score_table(sequences, score_matrix, sum_row);
@@ -35,4 +35,6 @@ void star_alignment(const std::vector<std::string>& sequences, const std::string
     for (const auto& s : multiple) std::cout << s << "\n";
 
     write_to_file(output_file, score_matrix, sum_row, pairwise_aligns, multiple);
+
+    return multiple;
 }

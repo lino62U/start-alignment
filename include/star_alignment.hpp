@@ -2,4 +2,4 @@
 #include <string>
 #include <vector>
 
-void star_alignment(const std::vector<std::string>& sequences, const std::string& output_file = "alineamiento_estrella.txt");
+std::vector<std::string> star_alignment(const std::vector<std::string>& sequences, const std::string& output_file = "alineamiento_estrella.txt");
